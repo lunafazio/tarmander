@@ -14,6 +14,8 @@ devtools::install_github("bmfazio/tarmander")
 
 ## Usage
 
+Note: contrary to a standard `targets` project, this function explicitly ignores `_targets.R` scripts found in the root directory as the idea is to organize scripts by placing them in subfolders.
+
 ``` r
 # Print active project
 tarmander::tarmander
